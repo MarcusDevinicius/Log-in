@@ -2,16 +2,68 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 body, html {
     background-color: #89937C;
+    padding-top: 30px;
 }
 
 main {
+    padding: 10px;
     background-color: white;
+    margin-top: 40px;
+    margin: auto;
+    width: 60vw;
+    border-radius: 10px;
+    height: 450px;
 }
 
 main > h1 {
     text-align: center;
+    background-color: #292f36ba;
+    color: white;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 18px;
+    width: 35vw;
+    border-radius: 10px;
+}
+
+main > form > div > label {
+    font-size: 16px;
+}
+
+main > form > div > .inputs {
+    width: 40vw; 
+    height: 35px;
+    margin: 8px;
+}
+
+main > form > p > a {
+    display: block;
+    color: #20242af1;
+    text-align: center;
+    margin-top: 15px;
+}
+
+main > form > input#btn-acs {
+    display: block;
+    width: 40vw;
+    height: 50px;
+    margin: auto;
+    margin-top: 35px;
+    cursor: pointer;
+    background-color: #89937c;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    transition: all .2s ease-in-out;
+    color: rgb(255, 254, 254);
+}
+
+main > form > input#btn-acs:hover {
+    background-color: #292f36ba;
+    color: white;
 }

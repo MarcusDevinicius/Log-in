@@ -5,25 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login Marcus</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/larger-screen.css">
 </head>
 <body>
     <main>
-        <h1>Log in</h1>
+        <h1>Login</h1>
         <form action="">
-            <div class="inputs">
+            <div>
                 <label for="ius">Usuário:</label> <br>
-                <input type="text" name="us" id="ius" autocomplete="on">
+                <input type="text" name="us" id="ius" class="inputs" autocomplete="on" placeholder="Seu usuário">
             </div>
-            <div class="inputs">
+            <div>
                 <label for="iemail">E-mail:</label> <br>
-                <input type="email" name="email" id="iemail"  autocomplete="on">
+                <input type="email" name="email" id="iemail" class="inputs"  autocomplete="on" placeholder="Seu E-mail">
             </div>
-            <div class="inputs">
+            <div>
                 <label for="isenha">Senha:</label> <br>
-                <input type="password" name="senha" id="isenha"  autocomplete="on">
+                <input type="password" name="senha" id="isenha" class="inputs"  autocomplete="on" placeholder="Sua senha">
             </div> 
             <p><a href="">Esqueci minha senha</a></p>
-            <input type="submit" value="Acessar">
+            <input id="btn-acs" type="submit" value="Acessar">
         </form>
     </main>
 </body>

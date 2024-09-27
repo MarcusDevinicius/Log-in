@@ -10,14 +10,20 @@ body, html {
     padding-top: 30px;
 }
 
+body > aside > img {
+    display: block;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.516));
+}
+
 main {
     padding: 10px;
-    background-color: rgb(211, 108, 108);
+    background-color: white;
     margin-top: 40px;
     margin: auto;
     width: 85vw;
     border-radius: 10px;
     height: 450px;
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.562);
 }
 
 main > h1 {
@@ -37,6 +43,7 @@ main > form > div > label {
 
 main > form > div > .inputs {
     width: 60vw; 
+    max-width: 350px;
     height: 35px;
     margin: 8px;
 }
@@ -51,6 +58,7 @@ main > form > p > a {
 main > form > input#btn-acs {
     display: block;
     width: 40vw;
+    max-width: 300px;
     height: 50px;
     margin: auto;
     margin-top: 35px;

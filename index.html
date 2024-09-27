@@ -6,26 +6,40 @@
     <title>Tela de Login Marcus</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/larger-screen.css">
+    <link rel="shortcut icon" href="src/imgs/favicon-png.png" type="image/x-icon">
 </head>
-<body>
+<body onresize="mudouTamanho()">
+    <aside>
+        <img id="imglogin" src="src/imgs/img-login.svg" alt="">
+    </aside>
     <main>
         <h1>Login</h1>
         <form action="">
             <div>
                 <label for="ius">Usuário:</label> <br>
-                <input type="text" name="us" id="ius" class="inputs" autocomplete="on" placeholder="Seu usuário">
+                <input type="text" name="us" id="ius" class="inputs" autocomplete="on" placeholder="Seu usuário" required>
             </div>
             <div>
                 <label for="iemail">E-mail:</label> <br>
-                <input type="email" name="email" id="iemail" class="inputs"  autocomplete="on" placeholder="Seu E-mail">
+                <input type="email" name="email" id="iemail" class="inputs"  autocomplete="on" placeholder="Seu E-mail" required>
             </div>
             <div>
                 <label for="isenha">Senha:</label> <br>
-                <input type="password" name="senha" id="isenha" class="inputs"  autocomplete="on" placeholder="Sua senha">
+                <input type="password" name="senha" id="isenha" class="inputs"  autocomplete="on" placeholder="Sua senha" required>
             </div> 
             <p><a href="">Esqueci minha senha</a></p>
             <input id="btn-acs" type="submit" value="Acessar">
         </form>
     </main>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 992) {
+            imglogin.style.display = 'block'
+            }
+            else {
+                imglogin.style.display = 'none'
+            }
+        }
+    </script>
 </body>
 </html>

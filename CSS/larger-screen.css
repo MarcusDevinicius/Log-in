@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (width >= 768px) and (width <= 991px) {
+    main {
+        width: 500px;
+    }
+    
+    main > h1 {
+        width: 300px;
+    }
+
+    main > form > div > .inputs {
+        width: 350px;
+    }
+
+    main > form > input#btn-acs {
+        width: 300px;
+    }
+}
+
+@media screen and (width >= 992px) {
+    body {
+        display: flex;
+        gap: 30px;
+    }
+
+    body > aside > img {
+        width: 50vw;
+    }
+
+    main {
+        width: 700px;
+        margin-right: 50px;
+    }
+
+    main > h1 {
+        width: 300px;
+    }
+
+    main > form > div > .inputs {
+        width: 25vw;
+    }
+
+    main > form > input#btn-acs {
+        width: 300px;
+    }
+}

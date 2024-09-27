@@ -12,10 +12,10 @@ body, html {
 
 main {
     padding: 10px;
-    background-color: white;
+    background-color: rgb(211, 108, 108);
     margin-top: 40px;
     margin: auto;
-    width: 90vw;
+    width: 60vw;
     border-radius: 10px;
     height: 450px;
 }

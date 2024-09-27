@@ -15,7 +15,7 @@ main {
     background-color: rgb(211, 108, 108);
     margin-top: 40px;
     margin: auto;
-    width: 60vw;
+    width: 85vw;
     border-radius: 10px;
     height: 450px;
 }
@@ -36,7 +36,7 @@ main > form > div > label {
 }
 
 main > form > div > .inputs {
-    width: 40vw; 
+    width: 60vw; 
     height: 35px;
     margin: 8px;
 }

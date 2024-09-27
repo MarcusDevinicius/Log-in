@@ -26,6 +26,8 @@
 
     body > aside > img {
         width: 50vw;
+        display: block;
+        filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.516));
     }
 
     main {

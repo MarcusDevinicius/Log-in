@@ -55,7 +55,11 @@ main > form > p > a {
     margin-top: 15px;
 }
 
-main > form > input#btn-acs {
+main > form > a {
+    text-decoration: none;
+}
+
+main > form > a > input#btn-acs {
     display: block;
     width: 40vw;
     max-width: 300px;
@@ -71,7 +75,7 @@ main > form > input#btn-acs {
     color: rgb(255, 254, 254);
 }
 
-main > form > input#btn-acs:hover {
+main > form > a > input#btn-acs:hover {
     background-color: #292f36ba;
     color: white;
 }

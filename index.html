@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login Marcus</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/larger-screen.css">
-    <link rel="shortcut icon" href="src/imgs/favicon-png.png" type="image/x-icon">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/larger-screen.css">
+    <link rel="shortcut icon" href="/src/imgs/favicon-png.png" type="image/x-icon">
 </head>
 <body onresize="mudouTamanho()">
     <aside>
@@ -28,7 +28,7 @@
                 <input type="password" name="senha" id="isenha" class="inputs"  autocomplete="on" placeholder="Sua senha" required>
             </div> 
             <p><a href="">Esqueci minha senha</a></p>
-            <input id="btn-acs" type="submit" value="Acessar">
+            <a href="./pag02.html" target="_blank"><input id="btn-acs" type="submit" value="Acessar"></a>
         </form>
     </main>
     <script>
@@ -40,6 +40,7 @@
                 imglogin.style.display = 'none'
             }
         }
+        var name = document.getElementById("ius")
     </script>
 </body>
 </html>
